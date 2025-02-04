@@ -11,7 +11,7 @@ class tindakLanjutController extends Controller
      */
     public function index()
     {
-        //
+        return view('tl/tindaklanjut');
     }
 
     /**
