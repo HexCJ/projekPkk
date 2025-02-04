@@ -26,6 +26,16 @@
                         {{ __('Data Tindak Lanjut') }}
                     </x-nav-link>
                 </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('pasien')" :active="request()->routeIs('pasien')">
+                        {{ __('Data Pasien') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('tl')" :active="request()->routeIs('user')">
+                        {{ __('Data User') }}
+                    </x-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->
